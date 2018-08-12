@@ -45,6 +45,17 @@ header("HTTP/1.0 404 Not found");
  ?>
  ```
 
-# References
+## References
 
+PHP command line web server
+
+http://php.net/manual/en/features.commandline.webserver.php
+
+
+Apache .htaccess documentation
+
+https://httpd.apache.org/docs/current/howto/htaccess.html
+
+
+Creating a PHP router compatible with .htaccess
 https://stackoverflow.com/questions/36675596/converting-a-very-simple-htaccess-into-a-php-router
