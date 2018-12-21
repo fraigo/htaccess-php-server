@@ -1,6 +1,6 @@
 <?php
 
-$PATH=$_SERVER["PATH_INFO"];
+@list($PATH, $QUERY) = explode("?",$_SERVER["REQUEST_URI"]);
 
 if ($PATH=="/something"){
     //doSomething();
